@@ -1,1 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="general.css">
+    <style>
+        .top_container{height: 40px;background: #333;}
+        .top_box{width: 1226px;height:40px;margin: auto;color: #b0b0b0;}
+        .bar>a,.login_cart a{text-decoration: none;color: #b0b0b0;line-height: 40px;font-size: 12px;}
+        .bar>.sep{margin: 0 0.3em;color: #424242;font: 12px ;}
+        .login_cart>.sep{color: #424242;font: 12px ;}
+        .mesage{width: 68px; padding:0 10px;}
+        .login_cart>div{line-height: 40px;}
+        .login_in,.sign_up{width: 24px;padding:0 5px;}
+        .message{width:48px; padding: 0 10px;}
+        .shopping_cart{width: 120px;height: 40px;text-align: center;background: #424242;font-size: 12px;margin-left: 10px;}
+        .top_box a:hover{color: white;}
+        .shopping_cart :hover{color: white;background: orange;}
+        .nav_box{width: 1226px;height: 100px;margin: auto;}
+        .nav>li{font-size: 16px;padding: 38px 10px 38px;color: #333333;}
+        .nav{margin-left: 220px;}
+        .logo{margin-top: 22px;}
+        .search_box>.search{width: 225px;height: 50px;outline: none;border: #e0e0e0 1px solid;padding: 0px 10px;margin-top: 25px;margin-left: 50px;box-sizing: border-box;font-size: 14px;}
+        .search_btn{width: 52px;height: 50px;border: #e0e0e0 1px solid;border-left:none;margin-top: 25px;box-sizing: border-box;padding-top: 15px;}
+        .nav :hover{color: orange;}
+        .search_wrap :hover .search{border: rgb(177, 177, 177) 1px solid;}
+        .search_wrap :hover .search_btn{border: rgb(177, 177, 177) 1px solid;}
+        .lens{margin-left: 15px;}
 
+        .banner{width: 1226px; height:460px;margin: auto;}
+        .banner_pics{position: relative;height: 460px;background: url(https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/e023dd94c146d0f27f7ae8e98213abff.jpg?thumb=1&w=1226&h=460&f=webp&q=90);}
+        .selector{width: 234px;height: 420px; background: #69656599;padding:20px 0}
+        .slt_bars{width: 214px;height: 42px; color:#ffffff;font-size: 14px;padding-left: 20px;line-height: 42px;position: relative;}
+        .slt_bars>.arrow{position: absolute;right: 20px;}
+        .selector :hover{background: orange;}
+        .btn_prev,.btn_next{font-size: 50px;width: 41px;height: 69px;color: rgb(73, 70, 63);line-height: 69px;padding-bottom: 3px;}
+        .page_switcher{width:992px ;position: absolute;right: 0;top: 200px;}
+        .page_switcher :hover{background: #69656599;}
+
+        .sub{width: 1226px; height: 170px;margin: auto;}
+        .functions{width: 228px;height: 164px;background: #5f5850;padding: 3px;}
+        .func_btn{width: 69px;height: 64px;padding: 0 3px;text-align: center;padding-top:18px;;}
+        .functions a{text-decoration: none;color: #ffffff; font-size: 12px;}
+        .up>.line{width: 1px;height: 70px; background: #665e57;margin-top: 11px;}
+        .mid>.line1,.line2,.line3{width: 64px;height: 1px; background: #665e57;}
+        .mid>.line1{margin-left: 5px;}
+        .mid>.line2{margin-left: 13px;}
+        .mid>.line3{margin-left: 11px;}
+
+        .s_banner{width: 978px; height: 170px;margin-left: 14px;}
+        .s_banner_img1,.s_banner_img2{margin-right: 10px;}
+
+        .sub_banner{margin-top: 14px;}
+
+        .circle{width: 6px;height: 6px; border: 2px solid rgba(151, 151, 151,0.5); border-color: hsla(0, 0, 100%, 0.3);margin-left: 7px;background:rgba(255, 255, 255, 0.5) ;border-radius: 50%;}
+        .circle_change{width: 70px;height: 10px;position: absolute;right: 100px;bottom: 20px;}
+    
+    </style>
+</head>
+<body>
+    <div class="web_xiaomi">
+        <div class="top_container"><!--顶部信息栏-->
+            <div class="top_box">
+                <div class="bar fl">
+                    <div></div><a href="">小米商城</a>
+                    <span class="sep">|</span>
+                    <a href="http://www.baidu.com">MIUI</a>
+                    <span class="sep">|</span>
+                    <a href="">IoT</a>
+                    <span class="sep">|</span>
+                    <a href="">云服务</a>
+                    <span class="sep">|</span>
+                    <a href="">天星科技</a>
+                    <span class="sep">|</span>
+                    <a href="">有品</a>
+                    <span class="sep">|</span>
+                    <a href="">小爱开放平台</a>
+                    <span class="sep">|</span>
+                    <a href="">企业团购</a>
+                    <span class="sep">|</span>
+                    <a href="">资质证照</a>
+                    <span class="sep">|</span>
+                    <a href="">协议规定</a>
+                    <span class="sep">|</span>
+                    <a href="">下载app</a>
+                    <span class="sep">|</span>
+                    <a href="">智能生活</a>
+                    <span class="sep">|</span>
+                    <a href="">Select Location</a>
+                </div>
+                <div class="login_cart fr">
+                    <div class="login_in fl"><a href="">登录</a></div>
+                    <div class="sep fl">|</div>
+                    <div class="sign_up fl"><a href="">注册</a></div>
+                    <div class="sep fl">|</div>
+                    <div class="message fl"><a href="">消息通知</a></div>
+                    <div class="shopping_cart fr">
+                        <div class="cart">购物车(0)</div>
+                    </div>      
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+        <div class="top_nav"><!--顶部导航栏-->
+            <div class="nav_box">
+                <div class="logo fl"><img src="img/logo-mi2.png" width="56px"></div>
+                <ul class="nav fl">
+                    <li class="nav_btn fl">小米手机</li>
+                    <li class="nav_btn fl">Redmi红米</li>
+                    <li class="nav_btn fl">电视</li>
+                    <li class="nav_btn fl">笔记本</li>
+                    <li class="nav_btn fl">家电</li>
+                    <li class="nav_btn fl">路由器</li>
+                    <li class="nav_btn fl">智能硬件</li>
+                    <li class="nav_btn fl">服务</li>
+                    <li class="nav_btn fl">社区</li>
+                </ul>
+               <div class="search_wrap">
+                    <div class="search_box fl">
+                    <input type="search" class="search" placeholder="家电">
+                    </div>
+                    <div class="search_btn fl">
+                        <img src="img/lens.png" alt="" width="20px" class="lens">
+                    </div>
+                </div>
+                
+            
+            </div>
+        </div>
+        <div class="banner"><!--广告栏部分-->
+            <div class="banner_pics">
+                <div class="selector">
+                    <div class="slt_bars">手机 电话卡
+                        <span class="arrow">></span>
+                    </div>
+                    <div class="slt_bars">电视 盒子
+                        <span class="arrow">></span>
+                    </div>
+                    <div class="slt_bars">笔记本 显示器
+                        <span class="arrow">></span>
+                    </div>
+                    <div class="slt_bars">家电 插线板
+                        <span class="arrow">></span>
+                    </div>
+                    <div class="slt_bars">出行 穿戴
+                        <span class="arrow">></span>
+                    </div>
+                    <div class="slt_bars">智能 路由器
+                        <span class="arrow">></span>
+                    </div>
+                    <div class="slt_bars">电源 配件
+                        <span class="arrow">></span>
+                    </div>
+                    <div class="slt_bars">健康 儿童
+                        <span class="arrow">></span>
+                    </div>
+                    <div class="slt_bars">耳机 音箱
+                        <span class="arrow">></span>
+                    </div>
+                    <div class="slt_bars">生活 箱包
+                        <span class="arrow">></span>
+                    </div>
+                </div>
+                <div class="page_switcher">
+                    <div class="btn_prev fl"></div>
+                    <div class="btn_next fr">></div>
+                    <div class="clear"></div>
+                </div>
+                <div class="circle_change">
+                    <div class="circle fl"></div>
+                    <div class="circle fl"></div>
+                    <div class="circle fl"></div>
+                    <div class="circle fl"></div>
+                </div>
+            </div>
+        </div>
+        <div class="sub_banner"><!--小广告栏部分-->
+            <div class="sub">
+                <div class="functions fl">
+                    <div class="up">
+                        <div class="func_btn fl">
+                            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/82abdba456e8caaea5848a0cddce03db.png?w=48&h=48" width="24px">
+                            <br>
+                            <a href="">小米秒杀</a>
+                        </div>
+                        <div class="line fl"></div>
+                        <div class="func_btn fl">
+                            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/806f2dfb2d27978e33fe3815d3851fa3.png?w=48&h=48" width="24px">
+                            <br>
+                            <a href="">企业团购</a>
+                        </div>
+                        <div class="line fl"></div>
+                        <div class="func_btn fl">
+                            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/eded6fa3b897a058163e2485532c4f10.png?w=48&h=48" width="24px">
+                            <br>
+                            <a href="">F码通道</a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="mid">
+                        <div class="line1 fl"></div>
+                        <div class="line2 fl"></div>
+                        <div class="line3 fl"></div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="down">
+                        <div class="func_btn fl">
+                            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/43a3195efa6a3cc7662efed8e7abe8bf.png?w=48&h=48" width="24px">
+                            <br>
+                            <a href="">米粉卡</a>
+                        </div>
+                        <div class="line fl"></div>
+                        <div class="func_btn fl">
+                            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/f4846bca6010a0deb9f85464409862af.png?w=48&h=48" width="24px">
+                            <br>
+                            <a href="">以旧换新</a>
+                        </div>
+                        <div class="line fl"></div>
+                        <div class="func_btn fl">
+                            <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9a76d7636b08e0988efb4fc384ae497b.png?w=48&h=48" width="24px">
+                            <br>
+                            <a href="">话费充值</a>
+                        </div>
+                        <div class="clear"></div>   
+                    </div>
+                </div>
+                <div class="s_banner fl">
+                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/5d4298059889417157e8492750328492.jpg?w=632&h=340" width="316px" class="s_banner_img1">
+                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b30177d629bfbe2fb42251c1b8538f7b.jpg?w=632&h=340" width="316px" class="s_banner_img2">
+                    <img src="https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/9f18ac756fa2cedb16ea429b9c0001af.png?w=632&h=340" width="316px" class="s_banner_img3">
+                
+                </div>
+
+            </div>
+        </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+</body>
+</html>
