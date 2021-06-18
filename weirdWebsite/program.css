@@ -1,0 +1,123 @@
+        /**顶部导航css**/
+        .top_nav{ width: 1200px; height: 72px; margin: auto;}
+        .logo{margin-top: 18px;}
+        .nav>li{height: 72px; width: 80px; margin-right: 2px; text-align: center; line-height: 72px;}
+        .nav{margin-left: 200px;}
+        .nav>li:hover{background: #5596ff; color: white;}
+        .nav_act{background: #5596ff; color: white;}
+        .login_register{line-height: 72px;}
+        
+        /**广告栏css**/
+        .banner{height: 720px; background: url(img/粉毛结局cg.jpg) no-repeat center top; padding-top: 670px; box-sizing: border-box;}/**重点！背景图居中不给宽，用center**/
+        .circle1{width: 16px; height: 16px; border-radius: 50%; background: white;}
+        .circle2{width: 16px; height: 16px; border-radius: 50%;border: white 2px solid; box-sizing: border-box;}
+        .change{width: 50px; margin: auto;}
+
+        /**搜索框css**/
+        .search{margin: auto; width: 250px; margin-top: 60px;position: relative;}
+        .search_box{width: 250px; height: 40px; font-size: 16px;}
+        .lens{position: absolute;right:3px  ; top: 7px;}
+
+         /**人员预览css**/
+         .human_title>.line{width: 78px; height: 6px; background: #666666;margin-top: 18px;}
+         .human_title{width: 328px; margin: auto;margin-top: 100px;}
+         .human_title>.words{color: #5596ff;font-weight: 500;margin-left: 18px;}
+         .human_res>p{color: #666666; font-size: 20px; text-align: center; margin-top: 20px;}
+         .human_pics{width: 1200px;margin: auto;height: 373px;;margin-top: 80px}
+         .human_pics>.pics{width: 118px; height: 373px; margin-right: 2px;}
+         .act2{width: 596px !important}
+         .shadow{height: 373px; background: rgba(51, 51, 51, 0.5);color: white; font-size: 30px;padding-top: 70px; padding-left: 25px  ;box-sizing:border-box; position: relative;}
+         .stop{width: 150px; position: absolute; top: 120px; right: 230px;}  
+         .more_btn{width: 164px;height: 58px; border: #5596ff 2px solid; border-radius: 5px; color: #5596ff; text-align: center; line-height: 58px; margin: auto; font-size: 25px; margin-top: 100px;}
+        
+         /**特惠人员**/
+         .dis_title>.line{width: 78px; height: 6px; background: #666666;margin-top: 18px;}
+         .dis_title{width: 328px; margin: auto;margin-top: 100px;}
+         .dis_title>.words{color: #5596ff;font-weight: 500;margin-left: 18px;}
+         .discounts>p{color: #666666; font-size: 20px; text-align: center; margin-top: 20px;}
+         .part_left{width: 857px; height: 600px;}
+         .part_right{width:343px;height:600px;}
+         .items{width:1200px; margin: auto; margin-top: 70px;}
+         .left_d{margin-top: 3px;}
+         .pic1{background: url(img/sale1.jpg);width: 424px; height: 281px;color: white; font-size: 25px;padding:40px 0 0 40px;font-weight: bold;box-sizing: border-box;}
+         .pic2{background: url(img/sale2.jpg) no-repeat; width: 420px; height: 281px; margin-right: 8px;padding-top: 27px; padding-left: 20px; box-sizing: border-box;}
+         .pic3{background: url(img/sale3.jpg);width: 355px;height: 319px; color: white; font-size: 25px;padding:40px 0 0 40px;font-weight: bold;box-sizing: border-box;}
+         .pic4{background: url(img/sale4.jpg) no-repeat;width: 487px;height: 319px;  margin-right: 8px ;color: white; font-size: 25px;padding:40px 0 0 40px;font-weight: bold;box-sizing: border-box;}
+         .pic5{background: url(img/sale5.jpg);width: 343px;height: 346px;color: white; font-size: 25px;padding:40px 0 0 40px;font-weight: bold;box-sizing: border-box;}
+         .pic6{background: url(img/sale6.jpg) no-repeat;width: 343px;height: 252px; margin-top: 6px;color: white; font-size: 25px;padding:40px 0 0 40px;font-weight: bold;box-sizing: border-box;}
+         .pic2>.shadow2{height: 230px; width:380px ; border:white 5px solid;border-radius: 10px;background: rgba(51, 51, 51, 0.5);color: white; font-size: 25px ;box-sizing:border-box; position: relative;padding-top: 10px; padding-left: 15px;}
+         .price>.line{width: 85px; height: 4px; background: #ffffff;margin-top: 18px;}
+         .price{ width: 300px;margin: auto; margin-top: 30px;}
+         .price>p{margin-left: 20px;}
+         .discounts>.more_btn{width: 164px;height: 58px; background: #5596ff; border-radius: 5px; color: #ffffff; text-align: center; line-height: 58px; margin: auto; font-size: 25px; margin-top: 130px;}
+
+         /**人员咨询**/
+         .info_title>.line{width: 78px; height: 6px; background: #666666;margin-top: 18px;}
+         .info_title{width: 328px; margin: auto;margin-top: 100px;}
+         .info_title>.words{color: #5596ff;font-weight: 500;margin-left: 18px;}
+         .info>p{color: #666666; font-size: 20px; text-align: center; margin-top: 20px;}
+         .background_pic{background:url(img/bg1.jpg) no-repeat center; height: 700px; width: 1200px;margin: auto; margin-top: 130px;}
+         .inner_pic{border: white 50px solid; margin-top: -80px;margin-right: -80px;}
+         .paras_title>.line{width: 200px; height: 8px; background: #666666;margin-top: 18px; margin-left: 300px;}
+         .article1{margin: auto;width: 1200px; margin-top: 100px;}
+         .paras_title{width: 500px; text-align: right;font-size: 35px; font-weight: bold; padding-right: 100px; box-sizing: border-box;}
+         .paras_title>.art_name{margin-top: 60px;}
+         .para{width: 700px; font-size: 30px; text-indent: 2em; line-height:40px ;}
+         .full_btn{width: 164px;height: 58px; border: #666 3px solid;font-size: 30px; text-align: center; line-height: 58px; border-radius: 5px;text-indent: 0em;margin: 60px 0 0 0;}
+         .article2{width: 1200px; margin: auto;margin-top: 70px;}
+         .a2_pic{background:url(img/a2-1.jpg);height: 942px;width: 670px;}
+         .a2_2{border: white 50px solid;margin-left:500px ; margin-top: 200px;}
+         .a2_words{width: 450px; font-size: 30px; text-indent: 2em; line-height: 40px;margin-top: 800px; margin-left: 80px;}
+         .a2_title>.line{width: 200px; height: 8px; background: #666666;margin-top: 18px; margin-left: 300px;margin-bottom: 40px;}
+         .a2_title{width: 500px; text-align: right;font-size: 35px; font-weight: bold; padding-right: 150px; box-sizing: border-box;margin-left: 150px;margin-top: 250px;}
+
+         .share_title>.line{width: 78px; height: 6px; background: #666666;margin-top: 18px;}
+         .share_title{width: 328px; margin: auto;margin-top: 100px;}
+         .share_title>.words{color: #5596ff;font-weight: 500;margin-left: 18px;}
+         .share>p{color: #666666; font-size: 20px; text-align: center; margin-top: 20px;}
+         .share_wrap{width: 1200px; margin: auto; margin-top: 100px;}
+         .share_l{background: url(img/share1.jpg); width:816px; height: 986px;}
+         .shadow3{height: 986px; width: 600px;background: rgba(51, 51, 51, 0.7);padding: 60px 60px;box-sizing: border-box;}
+         .shadow3>h1{color: #5596ff;}
+         .shadow3>.title{color: white; font-size: 30px;font-weight: 500;margin-top: 60px;}
+         .shadow3>.keywords{color: white; font-weight: 500;margin-top: 5px;}
+         .shadow3>.date{color: white; font: 500; font-size: 20px;text-align: right;margin-top: 5px;}
+         .shadow3>.first_para{color: white; font-size: 20px;text-indent: 2em; font-weight: 500; line-height: 45px;margin-top: 20px;}
+         .shadow3>.second_para{color: white; font-size: 20px;text-indent: 2em; font-weight: 500; line-height: 45px;}
+         .full_article{width: 164px;height: 58px;color: white; border:#ffffff 2px solid;font-size: 25px; text-align: center; line-height: 58px; border-radius: 5px;text-indent: 0em;margin: 110px 0 0 0;}
+         .share_r{width: 384px;height: 986px;}
+         .art_box1{width: 370px; height: 446px;background: white;margin-left: 15px;padding-top: 34px;box-shadow: #666666 0px 0px 15px;}
+         .art_box2{width: 370px; height: 446px;background: white;margin-left: 15px;margin-top: 25px; padding-top: 34px;box-shadow: #666666 0px 0px 15px;}
+         .art_box1>.img1{background:url(img/sq-1.jpg);width: 300px; height: 290px; margin-left: 34px;padding-top: 10px;}
+         .art_box2>.img2{background:url(img/sq-2.jpg);width: 300px; height: 290px; margin-left: 34px;padding-top: 10px;}
+         .img1>.tag1{width: 50px; height: 18px; color: white; background: #5596ff; text-align: center;font-size: 12px;margin-left: 15px;}
+         .img1>.tag2{width: 30px; height: 18px; color: white; background: #5596ff; text-align: center;font-size: 12px;margin-left: 10px;}
+         .img2>.tag1{width: 50px; height: 18px; color: white; background: #5596ff; text-align: center;font-size: 12px;margin-left: 15px;}
+         .img2>.tag2{width: 30px; height: 18px; color: white; background: #5596ff; text-align: center;font-size: 12px;margin-left: 10px;}
+         .art_box1>.date{margin-left: 34px; font-size: 12px;margin-top: 8px;}
+         .art_box1>h1{font-size: 12px;margin-left: 34px;font-weight: 600;}
+         .art_box1>.words{font-size: 12px; margin-left: 34px;width: 300px;height: 65px;margin-top: 5px;}
+         .full_art{width: 90px;font-size: 12px;margin-top: -17px;margin-right: 80px;color: #5596ff;}
+         .art_box2>.date{margin-left: 34px; font-size: 12px;margin-top: 8px;}
+         .art_box2>h1{font-size: 12px;margin-left: 34px;font-weight: 600;}
+         .art_box2>.words{font-size: 12px; margin-left: 34px;width: 300px;height: 65px;margin-top: 5px;}
+         .full_art{width: 90px;font-size: 12px;margin-top: -17px;margin-right: 80px;color: #5596ff;}
+         .more_pics{width: 1200px;height: 500px;box-shadow: 0 0 6px;;padding-top:40px;padding-left: 30px;padding-right: 30px;box-sizing: border-box;position: relative;margin: auto;margin-top: 100px}
+         .more_pics>.pic_title{color: #5596ff; font-weight: 500;}
+         .pics>.picture{margin-right: 30px;}
+         .pic>.picture2{margin-right:0px;}
+         .pics{margin-top: 30px;}
+         .page_btn{width: 50px; height: 50px; background: white; color: #5596ff; line-height: 50px; text-align: center;font-size: 30px;}
+         .page_change{ position: absolute;top: 250px;width:1138px;}
+         .date_and_name{font-size: 13px;}
+         .pic_name{font-size: 20px;font-weight: 500;margin-top: 5px;}
+
+         .end{height: 130px;background: #5596ff;margin-top: 200px;}
+         .end>p{text-align: center;line-height: 130px;color: white;}
+
+
+*{margin: 0; padding: 0;}
+.fl{float: left;}
+.fr{float: right;}
+li{list-style: none;}
+.clear{clear: both;}
